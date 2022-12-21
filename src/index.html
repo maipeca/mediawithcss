@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Simulator</title>
+</head>
+<body>
+    <div id="root">
+
+        <header id="vetoriais">
+            <h1>The city simulator</h1>
+
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                
+                <path class="wave-02"fill="#303036" fill-opacity="1" d="M0,288L0,32L144,32L144,0L288,0L288,0L432,0L432,224L576,224L576,256L720,256L720,160L864,160L864,32L1008,32L1008,288L1152,288L1152,32L1296,32L1296,0L1440,0L1440,320L1296,320L1296,320L1152,320L1152,320L1008,320L1008,320L864,320L864,320L720,320L720,320L576,320L576,320L432,320L432,320L288,320L288,320L144,320L144,320L0,320L0,320Z"></path>
+                <path class="wave-03" fill="#273036" fill-opacity="1" d="M0,256L0,128L144,128L144,256L288,256L288,160L432,160L432,256L576,256L576,32L720,32L720,32L864,32L864,288L1008,288L1008,64L1152,64L1152,64L1296,64L1296,96L1440,96L1440,320L1296,320L1296,320L1152,320L1152,320L1008,320L1008,320L864,320L864,320L720,320L720,320L576,320L576,320L432,320L432,320L288,320L288,320L144,320L144,320L0,320L0,320Z">
+            </svg>
+
+        </header>
+
+        <section id="video-container">
+            <h2>Video Player</h2>
+            <div class="container">
+                <div id="player">
+                    <video id="video" src="./assets/video.mp4"></video>
+                    <div class="controls">
+                        <button id="btn-play">
+                            <i class="fa fa-play"></i>
+                            <i class="fa fa-pause"></i>
+                        </button>
+                        <div class="timeline">
+                            <div class="bar">
+                                <div class="inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="imagens">
+            <h2>Trips</h2>
+            <div class="container">
+                <img src="./assets/images/build.jpg" alt="imagem 1 ">
+                <img src="./assets/images/build2.jpg" alt="imagem 2">
+                <img src="./assets/images/bigcity.jpg" alt="imagem 3">
+                <img src="./assets/images/darkcity.jpg" alt="imagem 4">
+                <img src="./assets/images/reiojaneiro.jpg" alt="imagem 5">
+                <img src="./assets/images/malaga.jpg" alt="imagem 6">
+                <img src="./assets/images/malaga2.jpg" alt="imagem 7">
+                <img src="./assets/images/goiania.jpg" alt="imagem 8">
+                <img src="./assets/images/goiania2.jpg" alt="imagem 9">
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
